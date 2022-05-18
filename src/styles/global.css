@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+body {
+    background-color: var(--primary-color-almost-white);
+
+    font-family: var(--font-family);
+}
+
+.App {
+    padding: 0 5rem;
+}

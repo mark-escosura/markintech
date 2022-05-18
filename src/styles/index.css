@@ -1,0 +1,16 @@
+@import './reset.css';
+@import './global.css';
+@import './header.css';
+
+:root {
+    --primary-color-almost-white: hsl(0, 0%, 98%);
+    --primary-color-medium-gray: hsl(0, 0%, 41%);
+    --primary-color-almost-black: hsl(0, 0%, 8%);
+    
+    --font-family: 'Epilogue', sans-serif;
+    --logo-size: 1.5rem;
+    --h1: 3.5rem;
+    --h2: 2.5rem;
+    --h3: 1.5rem;
+    --h4: 1rem;
+}
