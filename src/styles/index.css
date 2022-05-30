@@ -1,9 +1,11 @@
 @import './reset.css';
 @import './global.css';
 @import './header.css';
+@import './hero.css';
+@import './icons.css';
 
 :root {
-    --primary-color-almost-white: hsl(0, 0%, 98%);
+    --primary-color-almost-white: 	hsl(15, 57%, 97%);
     --primary-color-medium-gray: hsl(0, 0%, 41%);
     --primary-color-almost-black: hsl(0, 0%, 8%);
     

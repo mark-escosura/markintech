@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 10vh;
   
     background-color: var(--primary-color-almost-white);
     border-bottom: 1px solid var(--primary-color-almost-black);
@@ -10,7 +11,7 @@
 .header_container h1 {
     font-weight: 700;
     font-size: var(--logo-size);
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 .links_container {
@@ -26,10 +27,30 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
+
+    display: inline-block;
+    position: relative;
+}
+.links_container > *:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color-almost-black);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
   
-.links_container *:hover {
+/* .links_container > *:hover {
     text-decoration: underline;
+} */
+
+.links_container > *:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .hire_me_button {
@@ -46,4 +67,5 @@
 .hire_me_button:hover {
     transform: scale(1.1);
     text-decoration: none;
+    cursor: pointer;
 }

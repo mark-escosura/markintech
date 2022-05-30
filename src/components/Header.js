@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 // @desc logo(name), Home, Contact
 const Header = () => {
@@ -7,10 +7,12 @@ const Header = () => {
     <div className='header_container'>
       <h1>Mark Escosura</h1>
       <div className='links_container'>
-        <Link to='#'>Home</Link>
-        <Link to='#education'>Education</Link>
-        <Link to='#projects'>Projects</Link>
-        <button className='hire_me_button'>Hire Me</button>
+        <NavLink to='#'>Home</NavLink>
+        <NavLink to='#education'>Education</NavLink>
+        <NavLink to='#projects'>Projects</NavLink>
+        <NavLink to='#hireme'>
+          <button className='hire_me_button'>Hire Me</button>
+        </NavLink>
       </div>
     </div>
   );

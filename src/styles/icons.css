@@ -1,0 +1,25 @@
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 2rem;
+
+    z-index: 3;
+}
+
+.icons > *:not(last-child) {
+    margin: 0.5rem 0;
+}
+
+.icons > *:not(last-child):hover {
+    transform: scale(1.1) translateY(-0.25rem) translateX(-0.25rem);
+}
+
+.line {
+    width: 2px;
+    height: 8rem;
+    background-color: var(--primary-color-almost-black);
+}

@@ -1,0 +1,37 @@
+.hero_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+
+    border-bottom: 1px solid var(--primary-color-almost-black);
+}
+
+.right_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 50%;
+    font-size: calc(1rem + 1.5vw);
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.right_container > *:last-child {
+    font-size: calc(0.5rem + 1.5vw);
+    font-weight: 300;
+}
+.left_container {
+    width: 50%;
+}
+
+.left_container .pic {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    /* height: auto; */
+      
+}
