@@ -2,6 +2,7 @@
 @import './global.css';
 @import './header.css';
 @import './hero.css';
+@import './education.css';
 @import './icons.css';
 
 :root {
@@ -9,8 +10,10 @@
     --primary-color-medium-gray: hsl(0, 0%, 41%);
     --primary-color-almost-black: hsl(0, 0%, 8%);
     
-    --font-family: 'Epilogue', sans-serif;
-    --logo-size: 1.5rem;
+    --font-family-indie: 'Indie Flower', cursive;
+    --font-family-pacifico: 'Pacifico', cursive;
+    --font-family-prompt: 'Prompt', sans-serif;
+
     --h1: 3.5rem;
     --h2: 2.5rem;
     --h3: 1.5rem;

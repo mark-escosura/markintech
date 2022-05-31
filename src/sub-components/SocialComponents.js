@@ -16,7 +16,10 @@ const SocialComponents = () => {
       <NavLink target='_blank' to={{ pathname: '/' }}>
         <Github width={30} height={30} />
       </NavLink>
-      <NavLink target='_blank' to={{ pathname: '/' }}>
+      <NavLink
+        target='_blank'
+        to={{ pathname: 'https://www.github.com/mark-escosura' }}
+      >
         <Linkedin width={30} height={30} />
       </NavLink>
       <NavLink target='_blank' to={{ pathname: '/' }}>
