@@ -1,4 +1,6 @@
 /* Global Styles */
 .App {
-  font-family: var(--font-family-indie);
+    padding: 0 5rem;
+    font-family: var(--font-family-prompt);
+    background-color: var(--primary-color-almost-white);
 }

@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Prompt:wght@300&display=swap');
+
 @import './reset.css';
 @import './global.css';
 @import './header.css';
 @import './hero.css';
-@import './education.css';
+@import './experience/';
 @import './icons.css';
 
 :root {
@@ -14,8 +16,7 @@
     --font-family-pacifico: 'Pacifico', cursive;
     --font-family-prompt: 'Prompt', sans-serif;
 
-    --h1: 3.5rem;
-    --h2: 2.5rem;
-    --h3: 1.5rem;
-    --h4: 1rem;
+    --h1: calc(1.5rem + 1vh + 1.5vw);
+    --h2: calc(1rem + 1vh + 1.5vw);
+    --h3: calc(0.7rem + 0.1vh + 1vw);
 }

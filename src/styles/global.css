@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Prompt:wght@300&display=swap');
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
 
-.App {
-    padding: 0 5rem;
-    font-family: var(--font-family-prompt);
-    background-color: var(--primary-color-almost-white);
+    padding: 4rem;
 }

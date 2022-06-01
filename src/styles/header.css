@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 10vh;
     width: 100%;
+    position: sticky;
+    top:0;
+    left:0;
   
     background-color: var(--primary-color-almost-white);
     border-bottom: 1px solid var(--primary-color-almost-black);
-
-    z-index: 1;
 }
 
 .header_container h1 {
@@ -42,6 +42,7 @@
     display: inline-block;
     position: relative;
 }
+
 .links_container > *:after {
     content: '';
     position: absolute;
@@ -55,7 +56,7 @@
     transition: transform 0.25s ease-out;
 }
 
-.links_container > *:hover:after {
+.links_container > *:not(:last-child):hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -72,7 +73,7 @@
 }
 
 .hire_me_button:hover {
-    background-color: hsla(0, 0%, 8%, 0.7);
+    background-color: hsla(0, 0%, 8%, 0.9);
     transform: scale(1.1);
     text-decoration: none;
     cursor: pointer;

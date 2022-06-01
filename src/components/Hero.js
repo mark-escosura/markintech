@@ -3,19 +3,19 @@ import profilePic from '../assets/avatar-full-body.png';
 
 const Hero = () => {
   return (
-    <div className='hero_container'>
-      <section className='box'>
+    <section id='hero'>
+      <div className='box'>
         <h1>Mark Escosura</h1>
         <div className='typewriter_animation'>
-          <h6>
+          <p>
             I'm a <em>FrontEnd Developer</em>
-          </h6>
+          </p>
         </div>
-      </section>
-      <section className='box'>
-        <img className='pic' src={profilePic} alt='avatar' />
-      </section>
-    </div>
+      </div>
+      <div className='box'>
+        <img src={profilePic} alt='avatar' />
+      </div>
+    </section>
   );
 };
 

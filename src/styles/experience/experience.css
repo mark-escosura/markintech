@@ -1,0 +1,5 @@
+#experience h2 {
+    font-family: var(--font-family-prompt);
+    font-size: var(--h2);
+    margin-top: 5rem;
+}

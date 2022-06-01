@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import SocialComponents from './sub-components/SocialComponents';
-import Education from './components/Education';
+import Experience from './components/Experience';
 // import Projects from './components/Projects';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';
@@ -17,7 +17,7 @@ function App() {
     <div className='App'>
       <Header />
       <Hero />
-      <Education />
+      <Experience />
       {/*<Projects />
       <Contact />
     <Footer /> */}

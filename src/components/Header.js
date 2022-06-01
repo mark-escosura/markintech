@@ -1,20 +1,25 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
-// @desc logo(name), Home, Contact
 const Header = () => {
   return (
-    <div className='header_container'>
+    <header id='header' className='header_container'>
       <h1>MIT</h1>
-      <div className='links_container'>
-        <NavLink to='#'>Home</NavLink>
-        <NavLink to='#education'>Education</NavLink>
-        <NavLink to='#projects'>Projects</NavLink>
-        <NavLink to='#hireme'>
-          <button className='hire_me_button'>Hire Me</button>
-        </NavLink>
-      </div>
-    </div>
+      <nav className='links_container'>
+        <Link activeClass='active' smooth spy to='hero'>
+          Home
+        </Link>
+        <Link activeClass='active' smooth spy to='experience'>
+          Experience
+        </Link>
+        <Link activeClass='active' smooth spy to='projects'>
+          Projects
+        </Link>
+        <Link activeClass='active' smooth spy to='contact'>
+          <button className='hire_me_button'>Contact</button>
+        </Link>
+      </nav>
+    </header>
   );
 };
 
