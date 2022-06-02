@@ -1,0 +1,73 @@
+.project_card {
+    width: 60vh;
+    height: 35rem;
+    background-color: var(--primary-color-almost-white);
+    color: var(--primary-color-almost-black);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--primary-color-almost-black);
+    box-shadow: 0.5rem 0.5rem 0 0 var(--primary-color-almost-black);
+    transition: all 0.5s ease;
+}
+
+.project_card > *:hover {
+    cursor: pointer;
+}
+
+.project_tags {
+    border-top: 1px solid var(--primary-color-almost-black);
+    padding-top: 1rem;
+}
+
+.project_tags > *:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.project_card_footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project_card_footer > *:hover {
+    transition: all 200ms;
+}
+
+.visit_link {
+    background-color: var(--primary-color-almost-black);
+    color: var(--primary-color-almost-white);
+    text-decoration: none;
+    padding: 0.5rem calc(2em + 0.5vw) 0 calc(1em + 0.5vw);
+    border-radius: 0.5rem;
+    font-size: calc(1em + 0.5vw);
+    cursor: pointer;
+    transform: translateX(-0.75em) ;
+}
+
+.visit_link::before {
+    content: '»';
+    display: inline-block;
+    width: 1em;
+
+    color: var(--primary-color-almost-white);
+
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+.visit_link:hover {
+    transform: none;
+}
+
+.visit_link:hover::before {
+    opacity: 1;
+}
+
+.git > *:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+}

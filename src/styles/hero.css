@@ -1,11 +1,21 @@
 #hero {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #hero h1 {
     font-size: var(--h1);
+}
+
+#hero span {
+    font-size: var(--h2);
+}
+
+#hero .avatar {
+    width: 100%;
 }
 
 .typewriter_animation {
@@ -27,8 +37,4 @@
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: var(--primary-color-almost-black); }
-}
-
-.typewriter_animation p {
-    font-size: var(--h2);
 }

@@ -5,18 +5,25 @@ const Header = () => {
   return (
     <header id='header' className='header_container'>
       <h1>MIT</h1>
-      <nav className='links_container'>
-        <Link activeClass='active' smooth spy to='hero'>
+      <nav>
+        <Link
+          activeClass='active'
+          smooth
+          spy
+          duration={1850}
+          offset={-100}
+          to='hero'
+        >
           Home
         </Link>
-        <Link activeClass='active' smooth spy to='experience'>
+        <Link activeClass='active' smooth spy duration={1850} to='experience'>
           Experience
         </Link>
-        <Link activeClass='active' smooth spy to='projects'>
+        <Link activeClass='active' smooth spy duration={1850} to='projects'>
           Projects
         </Link>
-        <Link activeClass='active' smooth spy to='contact'>
-          <button className='hire_me_button'>Contact</button>
+        <Link activeClass='active' smooth spy duration={1850} to='contact'>
+          <button className='hire_me_button'>Hire Me</button>
         </Link>
       </nav>
     </header>

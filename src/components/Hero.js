@@ -7,13 +7,13 @@ const Hero = () => {
       <div className='box'>
         <h1>Mark Escosura</h1>
         <div className='typewriter_animation'>
-          <p>
+          <span>
             I'm a <em>FrontEnd Developer</em>
-          </p>
+          </span>
         </div>
       </div>
       <div className='box'>
-        <img src={profilePic} alt='avatar' />
+        <img className='avatar' src={profilePic} alt='avatar' />
       </div>
     </section>
   );

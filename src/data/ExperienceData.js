@@ -1,12 +1,12 @@
 export const ExperienceData = [
   {
     id: 0,
-    title: 'Graduate Of Bloom Institute Of Technology',
+    title: 'Graduate of Bloom Institute of Technology',
     link: 'https://www.credly.com/badges/6062629d-6412-4afc-9b92-cb211edd9069/public_url',
     image:
       'https://images.credly.com/size/220x220/images/7e3ea1ad-9b8e-44c4-ad9c-219aae5d89ab/image.png',
     description: [
-      'Engaged in a Computer Science & Software Engineering Academy that provides an immersive curriculum with a focus on computer science,software engineering, and web development',
+      'Engaged in a Computer Science & Software Engineering Academy that provides an immersive curriculum with a focus on computer science, software engineering, and web development',
       'Gained hands-on experience with cross-functional Agile teams to ship production ready code using React, Redux, NodeJS, Express, and PostgreSQL',
     ],
   },

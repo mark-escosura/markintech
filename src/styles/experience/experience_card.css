@@ -1,13 +1,14 @@
 .experience_heading {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .experience_list_container {
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 
 .experience_list {
     margin: 1rem 0;
-    font-size: var(--h3);
+    font-size: var(--p);
 }

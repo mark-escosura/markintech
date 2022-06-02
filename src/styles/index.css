@@ -5,6 +5,7 @@
 @import './header.css';
 @import './hero.css';
 @import './experience/';
+@import './projects/'; 
 @import './icons.css';
 
 :root {
@@ -18,5 +19,7 @@
 
     --h1: calc(1.5rem + 1vh + 1.5vw);
     --h2: calc(1rem + 1vh + 1.5vw);
-    --h3: calc(0.7rem + 0.1vh + 1vw);
+    --h3: calc(0.7rem + 0.9vh + 1.3vw);
+    --h4: calc(0.4rem + 0.8vh + 1vw);
+    --p: calc(0.4rem + 0.8vh + 0.7vw);
 }

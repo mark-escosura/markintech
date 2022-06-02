@@ -48,5 +48,8 @@ An interactive portfolio built with React to allow user-friendly access, display
 
 ## Acknowledgments
 
+Thank you to all the people that helped and gave great tips and feedback.
+
 - Omi - [@Omi](/)
 - Mariojuanna - [@mario](/)
+- Caleb - [@CalebCo](https://github.com/CalebCo) - Gave feedback about my unfinished project. Gave me tips and feedback about how i can make my portfolio more interactive in a way by instead of saying Contact on the top right, have a message bubble appear somewhere as a user scroll, saying "Oh hey there, click this". I found this a really great addition to my portfolio.
