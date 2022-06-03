@@ -1,6 +1,9 @@
-# Personal Portfolio
+<div align="center">
+<a href=""><img src="https://readme-typing-svg.herokuapp.com?lines=Personal+Portfolio+Made+With+❤️;&center=true&width=550&height=45&color=ffffff"></a>
 
 An interactive portfolio built with React to allow user-friendly access, display, and navigation of site features `(WIP)`.
+
+</div>
 
 ### Table Of Contents
 

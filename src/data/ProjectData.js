@@ -1,7 +1,5 @@
 export const ProjectData = [
-  // TODO: Each grid item has
-  // image( deploy image to the cloud ), title, description,
-  // tags(#) button(Visit), button(github icon) */
+  // TODO: coderheroes badge source link does not work without internet access
   {
     id: 1,
     title: 'Budget App',
@@ -27,7 +25,7 @@ export const ProjectData = [
     id: 3,
     title: 'Ooga Booga',
     description: 'An application that filters through different monsters.',
-    tags: ['react, sass'],
+    tags: ['react', 'sass'],
 
     link: 'https://ooga-booga.vercel.app/',
     code: 'https://github.com/mark-escosura/ooga-booga',
