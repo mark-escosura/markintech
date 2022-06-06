@@ -6,6 +6,7 @@
 @import './hero.css';
 @import './experience/';
 @import './projects/'; 
+@import './contact/';
 @import './icons.css';
 
 :root {

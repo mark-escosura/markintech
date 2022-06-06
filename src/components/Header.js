@@ -22,7 +22,7 @@ const Header = () => {
         <Link activeClass='active' smooth spy duration={1850} to='projects'>
           Projects
         </Link>
-        <Link activeClass='active' smooth spy duration={1850} to='contact'>
+        <Link smooth spy duration={1850} to='contact'>
           <button className='hire_me_button'>Hire Me</button>
         </Link>
       </nav>

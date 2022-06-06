@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/avatar-full-body.png';
+import profilePic from '../assets/avatar.png';
 
 const Hero = () => {
   return (
