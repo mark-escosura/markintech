@@ -3,11 +3,11 @@
 @import './reset.css';
 @import './global.css';
 @import './header.css';
+@import './icons.css';
 @import './hero.css';
 @import './experience/';
 @import './projects/'; 
-@import './contact/';
-@import './icons.css';
+@import './contact.css';
 
 :root {
     --primary-color-almost-white: 	hsl(15, 57%, 97%);

@@ -22,6 +22,7 @@
     box-shadow: 0.5rem 0.5rem 0 0 var(--primary-color-almost-black);
     transition: all 0.5s ease;
 }
+
 #contact .input_wrapper {
     position: relative;
 }
@@ -99,4 +100,37 @@
     padding: 0.5rem 1rem;
     margin: 1rem 0;
     text-align: center;
+}
+
+/* Tablet Screen Size */
+@media only screen and (max-width: 768px){ 
+    #contact h2 {
+        margin-bottom: 2rem;
+    }
+
+    #contact .contact_card {
+        width: 50vw;
+        height: 60vh;
+    }
+}
+
+/* Bigger Mobile Screen Size */
+@media only screen and (max-width: 600px) {
+    #contact h2 {
+        align-self: center;
+        margin-bottom: 1rem;
+    }
+
+    #contact .contact_card {
+        width: 60vw;
+        height: 70vh;
+    }
+
+    #contact input[type=submit] {
+        width: 50%;
+    }
+
+    .success {
+        font-size: var(--p);
+    }
 }

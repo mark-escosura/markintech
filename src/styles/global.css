@@ -12,7 +12,7 @@ section {
     justify-content: space-evenly;
     min-height: 100vh;
 
-    margin: 0 10rem;
+    margin: 3rem 6rem;
 }
 
 h1 {
@@ -33,4 +33,21 @@ h4 {
 
 p {
     font-size: var(--p);
+}
+
+/* Bigger Mobile Screen Size */
+@media only screen and (max-width: 600px) {
+    section {
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 5rem;
+    }
+}
+
+/* Mobile Screen Size */
+@media only screen and (max-width: 480px) {
+    section {
+        margin: 0 3rem;
+    }
 }
