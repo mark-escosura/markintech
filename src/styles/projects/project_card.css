@@ -1,5 +1,5 @@
 .project_card {
-    width: 60vh;
+    width: 35vw;
     height: 35rem;
     background-color: var(--primary-color-almost-white);
     color: var(--primary-color-almost-black);
@@ -45,7 +45,7 @@
     border-radius: 0.5rem;
     font-size: calc(1em + 0.5vw);
     cursor: pointer;
-    transform: translateX(-0.75em) ;
+    transform: translateX(-0.75em);
 }
 
 .visit_link::before {
@@ -70,4 +70,19 @@
 .git > *:hover {
     transform: scale(1.1);
     transition: 200ms;
+}
+
+/* Laptop Screen Size */
+@media only screen and (max-width: 991px) {
+    .project_card {
+        width: 35vw;
+        height: 60vh;
+    }
+}
+/* Tablet Screen Size */
+@media only screen and (max-width: 768px) {
+    .project_card {
+        width: 60vw;
+        height: 60vh;
+    }
 }

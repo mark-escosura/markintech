@@ -1,18 +1,21 @@
-.header_container {
+header {
+    position: sticky;
+    top:0;
+    left:0;   
+    backdrop-filter: blur(8px);
+
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid var(--primary-color-almost-black);
+}
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    position: sticky;
-    top:0;
-    left:0;
-    backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--primary-color-almost-black);
-    
-    z-index: 100;
 }
 
-.header_container h1 {
+nav h1 {
     font-weight: 700;
     font-size: var(--h1);
     font-family: var(--font-family-pacifico);
@@ -22,12 +25,12 @@
     transition: transform 0.25s ease-out;
 }
 
-.header_container h1:hover {
+nav h1:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-nav {
+.links_container {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
@@ -35,7 +38,7 @@ nav {
     font-size: var(--font-size-links);
 }
   
-nav > * {
+.links_container > * {
     display: inline-block;
     position: relative;
 
@@ -46,7 +49,7 @@ nav > * {
     cursor: pointer;
 }
 
-nav > *:after {
+.links_container > *:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -56,10 +59,10 @@ nav > *:after {
     left: 0;
     background-color: var(--primary-color-almost-black);
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 0.5s ease-out;
 }
 
-nav > *:not(:last-child):hover:after {
+.links_container > *:not(:last-child):hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -91,4 +94,23 @@ nav > *:not(:last-child):hover:after {
 
     opacity: 1;
     transition: opacity 200ms;
+}
+/* Laptop Screen Size */
+@media only screen and (max-width: 991px) {
+    nav h1 {
+        font-size: calc(1.5rem + 1vw);
+        margin: 0 1rem;
+    }
+
+    .links_container {
+        font-size: calc(0.8rem + 1vw);
+        width: 100%;
+        
+    }
+}
+/* Tablet Screen Size */
+@media only screen and (max-width: 768px) {
+    .links_container {
+        display: none;
+    }
 }

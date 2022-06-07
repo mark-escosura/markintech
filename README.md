@@ -16,7 +16,8 @@ An interactive portfolio built with React to allow user-friendly access, display
 
 ### Screenshot
 
-![Desktop View](/src/designs/desktop-view.png)
+- [Desktop View](/src/designs/desktop-view.png) <br/>
+- [Mobile View](/src/designs/mobile-view.png)
 
 ## My Process
 
