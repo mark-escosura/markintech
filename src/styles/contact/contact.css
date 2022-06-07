@@ -1,0 +1,102 @@
+#contact {
+    align-items: center;
+}
+
+#contact h2 {
+    align-self: flex-start;
+}
+
+#contact .contact_card {
+    width: 50vw;
+    height: 55vh;
+    background-color: var(--primary-color-almost-white);
+    color: var(--primary-color-almost-black);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    border: 1px solid var(--primary-color-almost-black);
+    box-shadow: 0.5rem 0.5rem 0 0 var(--primary-color-almost-black);
+    transition: all 0.5s ease;
+}
+#contact .input_wrapper {
+    position: relative;
+}
+
+#contact .input_wrapper input, textarea {
+    padding: calc(0.5rem + 0.5vw + 0.1vh);
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+#contact .message_input, #contact textarea {
+    height: calc(4rem + 0.5vw + 1vh);
+}
+
+#contact input:focus+label, textarea:focus+label {
+    transform: translateX(26px);
+}
+
+#contact input:focus+label .icon, #contact textarea:focus+label .icon {
+    opacity: 1;
+    transition-delay: .1s;
+}
+
+#contact input::placeholder, #contact textarea::placeholder {
+    transition: opacity .25s;
+}
+
+#contact input:focus::placeholder, #contact textarea:focus::placeholder {
+    opacity: 0;
+}
+
+#contact label {
+    position: absolute;
+    top: -24px;
+    left: -15px;
+    display: inline-flex;
+    align-items: center;
+    transition: transform .3s, opacity .25s;
+}
+
+#contact .icon {
+    display: inline-flex;
+    opacity: 0;
+    margin: 0 0.3rem 0 -0.3rem;
+}
+
+#contact input[type=submit] {
+    align-self: center;
+    width: 30%;
+
+    background-color: var(--primary-color-almost-black);
+    color: var(--primary-color-almost-white);
+    text-decoration: none;
+    padding: 0.5rem 1rem ;
+    border-radius: 0.4rem;
+    font-size: calc(1em + 0.5vw);
+    cursor: pointer;
+    border:none;
+
+    transition: 0.3s ease-in-out;
+}
+
+#contact input[type=submit]:hover {
+    transform: scale(1.1);
+}
+
+.success {
+    color: var(--primary-color-almost-white);
+    background-color: var(--primary-color-almost-black);
+    border: 1px solid var(--primary-color-almost-white);
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}

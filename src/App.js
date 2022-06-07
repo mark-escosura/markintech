@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import SocialComponents from './sub-components/SocialComponents';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 // import Footer from './components/Footer';
 
 // styles
@@ -18,8 +18,8 @@ function App() {
       <Hero />
       <Experience />
       <Projects />
-      {/* <Contact />
-      <Footer /> */}
+      <Contact />
+      {/*<Footer /> */}
       <SocialComponents />
     </div>
   );
