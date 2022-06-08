@@ -29,9 +29,11 @@ An interactive portfolio built with React to allow user-friendly access, display
 - CSS custom properties - [https://developer.mozilla.org/en-US/docs/Web/CSS/:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root)
 - CSS Flexbox properties - [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - CSS Grid properties - [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- EmailJS - [https://www.emailjs.com/docs/](https://www.emailjs.com/docs/)
 
 ```js
 "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
@@ -54,6 +56,6 @@ An interactive portfolio built with React to allow user-friendly access, display
 
 Thank you to all the people that helped and gave great tips and feedback.
 
-- Omi - [@Omi](/)
-- Mariojuanna - [@mario](/)
-- Caleb - [@CalebCo](https://github.com/CalebCo) - Gave feedback about my unfinished project. Gave me tips and feedback about how i can make my portfolio more interactive in a way by instead of saying Contact on the top right, have a message bubble appear somewhere as a user scroll, saying "Oh hey there, click this". I found this a really great addition to my portfolio.
+- Mariojuanna - [@mariojuanna](https://linktr.ee/mariojuanaaa) - Gave feedback about my unfinished portfolio. He recommended that I should put my projects in cards.
+- Caleb - [@CalebCo](https://github.com/CalebCo) - Gave feedback about my unfinished portfolio. Gave me tips and feedback about how i can make my portfolio more interactive in a way by instead of saying Contact on the top right, have a message bubble appear somewhere as a user scroll, saying "Oh hey there, click this". I found this a really great addition to my portfolio.
+- Angelique - [@MaryAngelique](https://github.com/MaryAngelique) - Reviewed and approved one of my [Pull Request](https://github.com/mark-escosura/markintech/pull/2).
